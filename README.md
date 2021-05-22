@@ -33,3 +33,6 @@ coordinateColor|String|否|#ccc|坐标轴颜色
 width|String|否|600|画板宽度
 height|String|否|400|画板长度
 
+## 效果展示
+
+![企业微信截图_16216847515603](https://user-images.githubusercontent.com/16251689/119225928-32846700-bb39-11eb-85be-e4454dff0c4b.png)
