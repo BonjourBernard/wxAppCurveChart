@@ -38,11 +38,11 @@ Component({
       type: String,
       value: '#fff'
     },
-    coordinateBackColor:{
+    coordinateColor:{
       type: String,
       value: '#ccc'
     },
-    coordinateColor:{
+    coordinateFontColor:{
       type: String,
       value: '#333'
     },
@@ -147,14 +147,14 @@ Component({
       this.ctx.fillRect(0, 0, this.data.width, this.data.height)
       this.ctx.beginPath()
       // 横向坐标
-      this.ctx.strokeStyle = this.data.coordinateBackColor
+      this.ctx.strokeStyle = this.data.coordinateColor
       this.ctx.moveTo(this.startPoint.x, this.startPoint.y)
       this.ctx.lineTo(this.startPoint.x + this.innerWidth, this.startPoint.y)
       this.ctx.stroke()
       for (let i = 0; i < this.chartData.length; i++) {
         let curX = this.startPoint.x + this.distance * i
         this.ctx.font = "normal normal 14px sans-serif";
-        this.ctx.fillStyle = this.data.coordinateColor
+        this.ctx.fillStyle = this.data.coordinateFontColor
         this.ctx.textAlign = "center"
         this.ctx.fillText(this.chartData[i]['key'], curX, this.startPoint.y + 20)
       }
