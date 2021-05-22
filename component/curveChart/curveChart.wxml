@@ -1,0 +1,9 @@
+<canvas 
+    type="2d" 
+    binderror="errorHandler" 
+    bindtouchmove="canvasMove" 
+    bindtouchend="canvasTouchEnd" 
+    bindtouchstart="canvasTouchStart" 
+    id="chartCanvas"
+    style="width:{{width}}rpx;height:{{height}}rpx;" 
+/>
