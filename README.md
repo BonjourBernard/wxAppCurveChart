@@ -1,4 +1,4 @@
-# wxAppSignName
+# wxAppCurveChart
 微信小程序曲线图表组件
 
 组件位于component目录的curveChart，page/index为页面事例
